@@ -18,10 +18,10 @@ body:
     id: reproduction
     attributes:
       label: Reproduction
-      description: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is **required**, otherwise the issue might be closed without further notice. [**Why & How?**](https://antfu.me/posts/why-reproductions-are-required)
+      description: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is **highly recommended**, otherwise the issue might be closed without further notice. [**Why & How?**](https://antfu.me/posts/why-reproductions-are-required)
       placeholder: Reproduction
     validations:
-      required: true
+      required: false
   - type: textarea
     id: system-info
     attributes:
@@ -50,7 +50,7 @@ body:
       label: Validations
       description: Before submitting the issue, please make sure you do the following
       options:
-        - label: Follow our [Code of Conduct](https://github.com/antfu/.github/blob/main/CODE_OF_CONDUCT.md)
+        - label: Follow our [Code of Conduct](https://github.com/harlan-zw/.github/blob/main/CODE_OF_CONDUCT.md)
           required: true
         - label: Read the [Contributing Guide](https://github.com/antfu/contribute).
           required: true
