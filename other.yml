@@ -1,0 +1,14 @@
+name: ❓ Question / Other
+description: Anything else such as a question or a discussion topic.
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Opening an issue
+
+        Please use the Discussions tab in the GitHub repo if it's available. Otherwise feel free to open this issue.
+  - type: textarea
+    id: context
+    attributes:
+      label: Details
