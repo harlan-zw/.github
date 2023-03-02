@@ -25,38 +25,10 @@ body:
   - type: textarea
     id: system-info
     attributes:
-      label: System Info
-      description: Output of `npx envinfo --system --binaries --browsers`
+      label: System / Nuxt Info
+      description: If applicable, please provide either `npx envinfo --system --binaries --browsers` or `nuxi info`
       render: Shell
       placeholder: System, Binaries, Browsers
     validations:
-      required: true
-  - type: dropdown
-    id: package-manager
-    attributes:
-      label: Used Package Manager
-      description: Select the used package manager
-      options:
-        - npm
-        - yarn
-        - pnpm
-        - bun
-        - n/a
-    validations:
-      required: true
-  - type: checkboxes
-    id: checkboxes
-    attributes:
-      label: Validations
-      description: Before submitting the issue, please make sure you do the following
-      options:
-        - label: Follow our [Code of Conduct](https://github.com/harlan-zw/.github/blob/main/CODE_OF_CONDUCT.md)
-          required: true
-        - label: Read the [Contributing Guide](https://github.com/antfu/contribute).
-          required: true
-        - label: Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.
-          required: true
-        - label: Check that this is a concrete bug. For Q&A, please open a GitHub Discussion instead.
-          required: true
-        - label: The provided reproduction is a [minimal reproducible](https://stackoverflow.com/help/minimal-reproducible-example) of the bug.
-          required: true
+      required: false
+
