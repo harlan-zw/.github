@@ -12,7 +12,7 @@ AI assistance is welcome. Keep a human in control.
 - Keep pull request descriptions concise. Explain why the change is needed.
 - If an agent drafts or edits the description, include this disclosure:
 
-  > 🤖 AI disclosure: [An AI agent](https://harlanzw.com/blog/ai-in-open-source) drafted or edited this description.
+  > 🤖 AI disclosure: An AI agent modified this description. [My AI open-source policy](https://harlanzw.com/blog/ai-in-open-source).
 
 - Identify all agent-written comments and reviews as automated.
 - Do not submit speculative, bulk or unrelated changes.
