@@ -14,7 +14,8 @@ AI assistance is welcome. Keep a human in control.
 
   > 🤖 AI disclosure: An AI agent modified this description.
 
-- Identify all agent-written comments and reviews as automated.
+- Agents must identify themselves as automated in every comment and review.
+- Keep agent comments to a minimum. Update an existing comment instead of posting another.
 - Do not submit speculative, bulk or unrelated changes.
 - You remain responsible for the contribution and any follow-up it needs.
 - As a good human, write the description in your own words.
