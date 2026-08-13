@@ -17,3 +17,4 @@ AI assistance is welcome. Keep a human in control.
 - Identify all agent-written comments and reviews as automated.
 - Do not submit speculative, bulk or unrelated changes.
 - You remain responsible for the contribution and any follow-up it needs.
+- As a good human, write the description in your own words.
