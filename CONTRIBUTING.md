@@ -10,9 +10,9 @@ AI assistance is welcome. Keep a human in control.
 - Review and test every change before submitting it.
 - Review every issue, pull request and comment before an agent publishes it.
 - Keep pull request descriptions concise. Explain why the change is needed.
-- If an agent drafts or edits the description, include this disclosure:
+- If an agent drafts or edits the description, include this disclosure. The agent names itself and links to itself, so a reader knows which one wrote it:
 
-  > 🤖 AI disclosure: An AI agent modified this description.
+  > 🤖 AI disclosure: [NAME](URL) modified this description.
 
 - Agents must identify themselves as automated in every comment and review.
 - Keep agent comments to a minimum. Update an existing comment instead of posting another.

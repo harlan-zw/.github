@@ -10,7 +10,7 @@ Before submitting the PR, please make sure you do the following:
 - Leave testing out of the description. CI reports that.
 - Include a real before and after when the change is about performance. Never estimate one.
 - Ideally, include relevant tests that fail without this PR but pass with it.
-- If an agent drafted or edited the description, keep the AI disclosure at the bottom. Delete it if you wrote the description yourself.
+- If an agent drafted or edited the description, fill in the AI disclosure at the bottom. The agent names itself and links to itself, so a reader knows which one wrote this. Delete the line if you wrote the description yourself.
 
 -->
 
@@ -31,4 +31,6 @@ Before submitting the PR, please make sure you do the following:
 
 <!-- Why this is needed, then 1 to 2 sentences on what changed. Add "### ⚠️ Breaking Changes" and "### 📝 Migration" sections only if the change actually breaks something or needs an operator step. -->
 
-> 🤖 AI disclosure: An AI agent modified this description.
+<!-- Agents: replace NAME and URL with your own. Humans: delete this line. -->
+
+> 🤖 AI disclosure: [NAME](URL) modified this description.
