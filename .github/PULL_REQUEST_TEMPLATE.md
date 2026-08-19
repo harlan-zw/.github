@@ -6,18 +6,31 @@ Before submitting the PR, please make sure you do the following:
 
 - Read the [Contributing Guide](https://github.com/harlan-zw/.github/blob/main/CONTRIBUTING.md).
 - Check that there isn't already a PR that solves the problem the same way to avoid creating a duplicate.
-- Provide a description in this PR that addresses **what** the PR is solving, or reference the issue that it solves (e.g. `fixes #123`).
+- Say **why** the change is needed. The diff shows how, so keep the fix itself to a sentence or two.
+- Leave testing out of the description. CI reports that.
+- Include a real before and after when the change is about performance. Never estimate one.
 - Ideally, include relevant tests that fail without this PR but pass with it.
+- If an agent drafted or edited the description, fill in the AI disclosure at the bottom. The agent names itself and links to itself, so a reader knows which one wrote this. Delete the line if you wrote the description yourself.
 
 -->
 
-### Description
+### 🔗 Linked issue
 
-<!-- Please insert your description here and provide especially info about the "what" this PR is solving -->
+<!-- e.g. "Resolves #123", or delete this section if there is no issue -->
 
-### Linked Issues
+### ❓ Type of change
 
+- [ ] 📖 Documentation
+- [ ] 🐞 Bug fix
+- [ ] 👌 Enhancement
+- [ ] ✨ New feature
+- [ ] 🧹 Chore
+- [ ] ⚠️ Breaking change
 
-### Additional context
+### 📚 Description
 
-<!-- e.g. is there anything you'd like reviewers to focus on? -->
+<!-- Why this is needed, then 1 to 2 sentences on what changed. Add "### ⚠️ Breaking Changes" and "### 📝 Migration" sections only if the change actually breaks something or needs an operator step. -->
+
+<!-- Agents: replace NAME and URL with your own. Humans: delete this line. -->
+
+> 🤖 AI disclosure: [NAME](URL) modified this description.
